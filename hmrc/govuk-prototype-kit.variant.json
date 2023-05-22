@@ -1,0 +1,6 @@
+{
+  "installedDependencies": [
+    "govuk-frontend@4.3.1",
+    "hmrc-frontend"
+  ]
+}
