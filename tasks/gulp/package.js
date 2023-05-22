@@ -59,7 +59,7 @@ gulp.task('copy:packageJson', (done) => {
   done();
 });
 
-gulp.task('copy-govuk-config', () => gulp.src([`${configPaths.src}govuk-prototype-kit.config.json`])
+gulp.task('copy-govuk-config', () => gulp.src([`${configPaths.src}govuk-prototype-kit.config.json`, `${configPaths.src}govuk-prototype-kit.variant.json`])
   .pipe(gulp.dest(configPaths.package)));
 
 gulp.task('copy-check-compatibility', () => gulp.src(['check-compatibility.js'])

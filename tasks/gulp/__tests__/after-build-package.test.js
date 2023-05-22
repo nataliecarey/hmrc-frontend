@@ -33,6 +33,7 @@ describe('package/', () => {
     const getExpectedPackageFiles = () => {
       const srcFilesToIgnore = [
         'govuk-prototype-kit.config.json',
+        'govuk-prototype-kit.variant.json',
         '.DS_Store',
         '*.test.js',
         '*.yaml',
@@ -44,6 +45,7 @@ describe('package/', () => {
       const additionalFilesNotFromSrc = [
         'check-compatibility.js',
         'govuk-prototype-kit.config.json',
+        'govuk-prototype-kit.variant.json',
         'package.json',
         'README.md',
         'LICENSE',

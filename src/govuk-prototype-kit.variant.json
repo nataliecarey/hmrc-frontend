@@ -1,0 +1,7 @@
+{
+  "inheritFrom": ["govuk-prototype-kit"],
+  "installedPackages": [
+    "__INHERIT__",
+    "hmrc-frontend"
+  ]
+}
